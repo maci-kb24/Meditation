@@ -56,11 +56,11 @@ sounds.forEach(sound => {
     if (song.paused) {
       song.play();
       video.play();
-      play.src = "/assets/svg/pause.svg";
+      play.src = "/public/assets/svg/pause.svg";
     } else {
       song.pause();
       video.pause();
-      play.src = "/assets/svg/play.svg";
+      play.src = "/public/assets/svg/play.svg";
     }
   };
 
@@ -76,7 +76,7 @@ song.ontimeupdate = function() {
     if (currentTime >= fakeDuration) {
       song.pause();
       song.currentTime = 0;
-      play.src = "/assets/svg/play.svg";
+      play.src = "/public/assets/svg/play.svg";
       video.pause();
     }
   };

@@ -2,10 +2,10 @@
   "name": "meditation-app",
   "version": "1.0.0",
   "description": "Meditation App",
-  "github": "https://github.com/maci-kb24/Meditation.git",
+  "github": "https://github.com/maci-kb24/Meditation",
   "main": "app.js",
   "scripts": {
-    "deploy": "gh-pages -d Meditation App"
+    "deploy": "gh-pages -d public"
   },
   "keywords": [
     "meditation",
