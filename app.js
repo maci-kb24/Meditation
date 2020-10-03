@@ -72,7 +72,7 @@ song.ontimeupdate = function() {
     timeDisplay.textContent = `${minutes}:${seconds}`;
     let progress = outlineLength - (currentTime / fakeDuration) * outlineLength;
     outline.style.strokeDashoffset = progress;
-  
+    
     if (currentTime >= fakeDuration) {
       song.pause();
       song.currentTime = 0;

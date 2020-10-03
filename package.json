@@ -5,7 +5,7 @@
   "github": "https://github.com/maci-kb24/Meditation.git",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d Meditation App"
   },
   "keywords": [
     "meditation",
@@ -14,5 +14,9 @@
     "relax"
   ],
   "author": "Marjan Stojanovski",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/maci-kb24/Meditation.git",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
